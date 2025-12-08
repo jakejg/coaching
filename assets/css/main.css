@@ -828,8 +828,18 @@ input[type="radio"]+label:before {
 	border-radius: 100%;
 }
 
-#about p {
+#about p,
+#contact p,
+#rates p {
 	text-align: center;
+	font-size: 1.2rem;
+}
+
+#about .major,
+#contact .major,
+#rates .major {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .image.main img {
